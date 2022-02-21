@@ -2,7 +2,7 @@
 
 int main()
 {
-	Admin admin;//admin
+	Admin admin;
 	User user;
 	TestingSystem tst; 
 	vector <User> usersDB;
@@ -66,7 +66,7 @@ int main()
 					}
 				}
 				break;
-			} //dwa
+			} 
 			case REGISTERUSER:
 			{
 				system("cls");

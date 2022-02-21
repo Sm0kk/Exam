@@ -30,7 +30,7 @@ private:
 	int count_questions;
 	vector <TestingSystem> questions;
 };
-\\//
+
 void TestingSystem::load_test(string path)
 {
 	int tmp;
@@ -122,9 +122,8 @@ void TestingSystem::load_start_test(User& _obj, int _choice)
 	cout << "Test done! Your result:\nCategory: " << _obj.get_category() << "\nCorrect answers: " << _obj.get_correct_answ() << "\tPercentage correct answers: "
 		<< _obj.get_percent() << "%\tMark: " << _obj.get_mark() << endl;
 	right = 0;
-	questions.clear(); // ?
+	questions.clear(); 
 }
-
 
 void TestingSystem::anwser_questions()
 {
